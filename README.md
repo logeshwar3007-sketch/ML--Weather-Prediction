@@ -17,6 +17,11 @@ To write a program to predict daily temperature , PM2.5 pollution level and Ener
 4. Train Random Forest models to predict temperature and PM2.5 and save the models.
 ## Program:
 ```
+/*
+Program to implement the Random Forest Algorithm to predict daily temperature , PM2.5 pollution level and Energy based on environmental sensor data.
+Developed by: S LOGESHWAR
+RegisterNumber: 212225040204 
+*/
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split, cross_val_score
@@ -96,11 +101,7 @@ print(cv_scores)
 
 print("\nAverage Cross Validation Score")
 print(cv_scores.mean())
-/*
-Program to implement the Random Forest Algorithm to predict daily temperature , PM2.5 pollution level and Energy based on environmental sensor data.
-Developed by: S LOGESHWAR
-RegisterNumber: 212225040204 
-*/
+
 ```
 
 ## Output:
